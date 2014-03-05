@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency "akami",    "~> 1.2.0"
   s.add_dependency "gyoku",    "~> 1.1.0"
 
-  s.add_dependency "builder",  ">= 2.1.2"
+  s.add_dependency "builder",  ">= 3.0.0"
 
   if RUBY_VERSION[0,3] == "1.8"
     # nokogiri 1.6 dropped support for ruby 1.8
